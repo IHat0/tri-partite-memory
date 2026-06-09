@@ -63,8 +63,7 @@ Because dictionary insertion is idempotent, every event flagged as critical is *
 The prototype memory system was validated through a 10-day deterministic simulation running on a real, local **`Meta-Llama-3.1-8B-Instruct`** model on Kaggle. The results completely verified the flat cost and memory hypotheses:
 
 ### Master Performance Dashboard
-![Pillar 3 Master Dashboard](charts/KPI_Master_Dashboard.png)
-
+![Pillar 3 Master Dashboard](<img width="3180" height="2362" alt="chart5_master_dashboard" src="https://github.com/user-attachments/assets/ef9fd07e-fd50-4314-8a03-efb8f137001c" />)
 ### Key Metrics Summary
 
 | KPI | Target | Achieved (Llama-3.1-8B) | Status |
@@ -76,8 +75,6 @@ The prototype memory system was validated through a 10-day deterministic simulat
 
 ### The "Flatline" Proof (Pillar 3 vs. Flat-Brained Agent)
 Without Pillar 3, the agent's context window grows linearly, reaching **30,150 tokens by Day 10**. With Pillar 3, the active context window remains perfectly flat, averaging **183 tokens**, representing a **99.4% reduction in active context overhead.**
-
-<img width="3180" height="2362" alt="chart5_master_dashboard" src="https://github.com/user-attachments/assets/ef9fd07e-fd50-4314-8a03-efb8f137001c" />
 
 ### Long-Horizon Cost Projection (100 Days)
 Over 100 operational days, a standard agent's context explodes to **300,000 tokens per turn**, making inference cost-prohibitive. M.A.C.'s self-cleaning memory keeps the cost curve perfectly flat, allowing **infinite agent persistence at a constant, predictable cost ($0.002 per turn).**
