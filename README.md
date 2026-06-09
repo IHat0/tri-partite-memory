@@ -63,7 +63,7 @@ Because dictionary insertion is idempotent, every event flagged as critical is *
 The prototype memory system was validated through a 10-day deterministic simulation running on a real, local **`Meta-Llama-3.1-8B-Instruct`** model on Kaggle. The results completely verified the flat cost and memory hypotheses:
 
 ### Master Performance Dashboard
-![Pillar 3 Master Dashboard](<img width="3180" height="2362" alt="chart5_master_dashboard" src="https://github.com/user-attachments/assets/ef9fd07e-fd50-4314-8a03-efb8f137001c" />)
+<img width="3180" height="2362" alt="chart5_master_dashboard" src="https://github.com/user-attachments/assets/ef9fd07e-fd50-4314-8a03-efb8f137001c" />
 ### Key Metrics Summary
 
 | KPI | Target | Achieved (Llama-3.1-8B) | Status |
