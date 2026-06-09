@@ -77,12 +77,13 @@ The prototype memory system was validated through a 10-day deterministic simulat
 ### The "Flatline" Proof (Pillar 3 vs. Flat-Brained Agent)
 Without Pillar 3, the agent's context window grows linearly, reaching **30,150 tokens by Day 10**. With Pillar 3, the active context window remains perfectly flat, averaging **183 tokens**, representing a **99.4% reduction in active context overhead.**
 
-![Context Window Flatline Proof](charts/context_flatline_proof.png)
+<img width="3180" height="2362" alt="chart5_master_dashboard" src="https://github.com/user-attachments/assets/ef9fd07e-fd50-4314-8a03-efb8f137001c" />
 
 ### Long-Horizon Cost Projection (100 Days)
 Over 100 operational days, a standard agent's context explodes to **300,000 tokens per turn**, making inference cost-prohibitive. M.A.C.'s self-cleaning memory keeps the cost curve perfectly flat, allowing **infinite agent persistence at a constant, predictable cost ($0.002 per turn).**
 
 ![100-Day Cost Projection](charts/100_day_cost_projection.png)
+<img width="2778" height="1373" alt="chart6_cost_projection" src="https://github.com/user-attachments/assets/980a88e9-6e93-4b75-a651-08b05ab738f6" />
 
 ---
 
